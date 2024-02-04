@@ -4,6 +4,7 @@ This project is a simple web-based utility that allows users to lighten or darke
 
 ## Technologies Used
 **HTML**: The structure of the user interface.
+
 **CSS**: Styling for a visually appealing and responsive design.
 **JavaScript**: Handling user interactions and dynamically updating the UI.
 **DOM Manipulatio**n: Interacting with HTML elements to achieve dynamic behavior.
