@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Lighten / Darken Color</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div>
+            <h1 class="title">Lighten / Darken Color</h1>
+            <label for="hex"> Color </label>
+            <input type="text" name="hex" id="hexInput" 
+            placeholder="#000000" value="#c6d5ac">
+
+            <div class="toggle">
+                <p id="ligthenText" class="toggle-text">Lighten</p>
+                <div id="toggleBtn" class="toggle-btn">
+                    <div class="inner-circle"></div>
+                </div>
+                <p id="darkenText" class="toggle-text unselected">Darken</p>
+            </div>
+       
+        <label for="slider" id="sliderText">0%</label>
+        <input type="range" max="100" min="0" name="slider" 
+        class="slider" id="slider" value="0">
+
+        <p>Input color</p>
+        <div id="inputColor" class="box"></div>
+        <p id="alteredColorText">Altered Color</p>
+        <div id="alteredColor" class="box"></div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
